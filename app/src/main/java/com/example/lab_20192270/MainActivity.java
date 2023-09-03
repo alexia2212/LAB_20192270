@@ -2,7 +2,9 @@ package com.example.lab_20192270;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.Menu;
 import android.widget.Button;
 import android.widget.Toast;
 
@@ -17,7 +19,10 @@ public class MainActivity extends AppCompatActivity {
         Button button = findViewById(R.id.botonJugar);
         button.setOnClickListener(view -> {
 
+            Intent intent = new Intent(this,TeleAhorcado.class);
+            startActivity(intent);
 
         });
     }
+
 }

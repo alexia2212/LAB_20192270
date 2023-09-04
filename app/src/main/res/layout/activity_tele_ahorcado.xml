@@ -24,7 +24,7 @@
                 android:layout_width="174dp"
                 android:layout_height="43dp"
                 android:layout_marginBottom="-10dp"
-                android:onClick="play"
+
                 android:text="Nuevo Juego"
                 app:layout_constraintTop_toBottomOf="@id/TerminoEnSeg"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -52,21 +52,19 @@
                 android:layout_marginTop="25dp"
                 android:paddingStart="0dp"
                 android:paddingEnd="0dp"
-
                 android:text="A"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/palabra_adivinar" />
+                app:layout_constraintTop_toBottomOf="@id/antena" />
 
             <LinearLayout
                 android:id="@+id/words"
-
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
-                android:background="@android:color/white"
-                android:padding="10dp"
                 android:orientation="horizontal"
                 android:gravity="center"
+                android:layout_marginTop="-20dp"
+                app:layout_constraintTop_toBottomOf="@id/antena"
             />
 
             <Button
@@ -89,6 +87,7 @@
                 android:paddingStart="0dp"
                 android:paddingEnd="0dp"
                 android:text="C"
+
                 app:layout_constraintBottom_toBottomOf="@id/Button_A"
                 app:layout_constraintStart_toEndOf="@+id/Button_B"
                 app:layout_constraintTop_toTopOf="@id/Button_A" />
@@ -101,6 +100,7 @@
                 android:paddingStart="0dp"
                 android:paddingEnd="0dp"
                 android:text="D"
+
                 app:layout_constraintBottom_toBottomOf="@id/Button_A"
                 app:layout_constraintStart_toEndOf="@+id/Button_C"
                 app:layout_constraintTop_toTopOf="@id/Button_A" />
@@ -113,6 +113,7 @@
                 android:paddingStart="0dp"
                 android:paddingEnd="0dp"
                 android:text="E"
+
                 app:layout_constraintBottom_toBottomOf="@id/Button_A"
                 app:layout_constraintStart_toEndOf="@+id/Button_D"
                 app:layout_constraintTop_toTopOf="@id/Button_A" />
@@ -125,6 +126,7 @@
                 android:paddingStart="0dp"
                 android:paddingEnd="0dp"
                 android:text="F"
+
                 app:layout_constraintBottom_toBottomOf="@id/Button_A"
                 app:layout_constraintStart_toEndOf="@+id/Button_E"
                 app:layout_constraintTop_toTopOf="@id/Button_A" />
@@ -137,6 +139,7 @@
                 android:paddingStart="0dp"
                 android:paddingEnd="0dp"
                 android:text="G"
+
                 app:layout_constraintBottom_toBottomOf="@id/Button_A"
                 app:layout_constraintStart_toEndOf="@+id/Button_F"
                 app:layout_constraintTop_toTopOf="@id/Button_A" />
@@ -149,6 +152,7 @@
                 android:paddingStart="0dp"
                 android:paddingEnd="0dp"
                 android:text="H"
+
                 app:layout_constraintEnd_toEndOf="@id/Button_A"
                 app:layout_constraintStart_toEndOf="@+id/Button_A"
                 app:layout_constraintStart_toStartOf="@id/Button_A"
@@ -162,6 +166,7 @@
                 android:paddingStart="0dp"
                 android:paddingEnd="0dp"
                 android:text="I"
+
                 app:layout_constraintBottom_toBottomOf="@id/Button_H"
                 app:layout_constraintStart_toEndOf="@+id/Button_H"
                 app:layout_constraintTop_toTopOf="@id/Button_H" />
@@ -174,6 +179,7 @@
                 android:paddingStart="0dp"
                 android:paddingEnd="0dp"
                 android:text="J"
+
                 app:layout_constraintBottom_toBottomOf="@id/Button_H"
                 app:layout_constraintStart_toEndOf="@+id/Button_I"
                 app:layout_constraintTop_toTopOf="@id/Button_H" />
@@ -186,6 +192,7 @@
                 android:paddingStart="0dp"
                 android:paddingEnd="0dp"
                 android:text="K"
+
                 app:layout_constraintBottom_toBottomOf="@id/Button_H"
                 app:layout_constraintStart_toEndOf="@+id/Button_J"
                 app:layout_constraintTop_toTopOf="@id/Button_H" />
@@ -198,6 +205,7 @@
                 android:paddingStart="0dp"
                 android:paddingEnd="0dp"
                 android:text="L"
+
                 app:layout_constraintBottom_toBottomOf="@id/Button_H"
                 app:layout_constraintStart_toEndOf="@+id/Button_K"
                 app:layout_constraintTop_toTopOf="@id/Button_H" />
@@ -210,6 +218,7 @@
                 android:paddingStart="0dp"
                 android:paddingEnd="0dp"
                 android:text="M"
+
                 app:layout_constraintBottom_toBottomOf="@id/Button_H"
                 app:layout_constraintStart_toEndOf="@+id/Button_L"
                 app:layout_constraintTop_toTopOf="@id/Button_H" />
@@ -222,6 +231,7 @@
                 android:paddingStart="0dp"
                 android:paddingEnd="0dp"
                 android:text="N"
+
                 app:layout_constraintBottom_toBottomOf="@id/Button_H"
                 app:layout_constraintStart_toEndOf="@+id/Button_M"
                 app:layout_constraintTop_toTopOf="@id/Button_H" />
@@ -234,6 +244,7 @@
                 android:paddingStart="0dp"
                 android:paddingEnd="0dp"
                 android:text="O"
+
                 app:layout_constraintEnd_toEndOf="@id/Button_H"
                 app:layout_constraintStart_toEndOf="@+id/Button_H"
                 app:layout_constraintStart_toStartOf="@id/Button_H"
@@ -247,6 +258,7 @@
                 android:paddingStart="0dp"
                 android:paddingEnd="0dp"
                 android:text="P"
+
                 app:layout_constraintBottom_toBottomOf="@id/Button_O"
                 app:layout_constraintStart_toEndOf="@+id/Button_O"
                 app:layout_constraintTop_toTopOf="@id/Button_O" />
@@ -259,6 +271,7 @@
                 android:paddingStart="0dp"
                 android:paddingEnd="0dp"
                 android:text="Q"
+
                 app:layout_constraintBottom_toBottomOf="@id/Button_P"
                 app:layout_constraintStart_toEndOf="@+id/Button_P"
                 app:layout_constraintTop_toTopOf="@id/Button_P" />
@@ -271,6 +284,7 @@
                 android:paddingStart="0dp"
                 android:paddingEnd="0dp"
                 android:text="R"
+
                 app:layout_constraintBottom_toBottomOf="@id/Button_Q"
                 app:layout_constraintStart_toEndOf="@+id/Button_Q"
                 app:layout_constraintTop_toTopOf="@id/Button_Q" />
@@ -283,6 +297,7 @@
                 android:paddingStart="0dp"
                 android:paddingEnd="0dp"
                 android:text="S"
+
                 app:layout_constraintBottom_toBottomOf="@id/Button_R"
                 app:layout_constraintStart_toEndOf="@+id/Button_R"
                 app:layout_constraintTop_toTopOf="@id/Button_R" />
@@ -295,6 +310,7 @@
                 android:paddingStart="0dp"
                 android:paddingEnd="0dp"
                 android:text="T"
+
                 app:layout_constraintBottom_toBottomOf="@id/Button_S"
                 app:layout_constraintStart_toEndOf="@+id/Button_S"
                 app:layout_constraintTop_toTopOf="@id/Button_S"
@@ -308,6 +324,7 @@
                 android:paddingStart="0dp"
                 android:paddingEnd="0dp"
                 android:text="U"
+
                 app:layout_constraintBottom_toBottomOf="@id/Button_T"
                 app:layout_constraintStart_toEndOf="@+id/Button_T"
                 app:layout_constraintTop_toTopOf="@id/Button_T" />
@@ -320,6 +337,7 @@
                 android:paddingStart="0dp"
                 android:paddingEnd="0dp"
                 android:text="V"
+
                 app:layout_constraintEnd_toEndOf="@id/Button_O"
                 app:layout_constraintStart_toEndOf="@+id/Button_O"
                 app:layout_constraintStart_toStartOf="@id/Button_O"
@@ -333,6 +351,7 @@
                 android:paddingStart="0dp"
                 android:paddingEnd="0dp"
                 android:text="W"
+
                 app:layout_constraintBottom_toBottomOf="@id/Button_V"
                 app:layout_constraintStart_toEndOf="@+id/Button_V"
                 app:layout_constraintTop_toTopOf="@id/Button_V" />
@@ -345,6 +364,7 @@
                 android:paddingStart="0dp"
                 android:paddingEnd="0dp"
                 android:text="X"
+
                 app:layout_constraintBottom_toBottomOf="@id/Button_W"
                 app:layout_constraintStart_toEndOf="@+id/Button_W"
                 app:layout_constraintTop_toTopOf="@id/Button_W" />
@@ -357,6 +377,7 @@
                 android:paddingStart="0dp"
                 android:paddingEnd="0dp"
                 android:text="Y"
+
                 app:layout_constraintBottom_toBottomOf="@id/Button_X"
                 app:layout_constraintStart_toEndOf="@+id/Button_X"
                 app:layout_constraintTop_toTopOf="@id/Button_X" />
@@ -369,6 +390,7 @@
                 android:paddingStart="0dp"
                 android:paddingEnd="0dp"
                 android:text="Z"
+
                 app:layout_constraintBottom_toBottomOf="@id/Button_Y"
                 app:layout_constraintStart_toEndOf="@+id/Button_Y"
                 app:layout_constraintTop_toTopOf="@id/Button_Y" />
@@ -454,27 +476,12 @@
                 android:id="@+id/antena"
                 android:layout_width="279dp"
                 android:layout_height="332dp"
-                android:layout_marginTop="104dp"
+                android:layout_marginTop="35dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:srcCompat="@drawable/antenna_sinfondo" />
 
-            <TextView
-                android:id="@+id/palabra_adivinar"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="-15dp"
-                android:text="PUCP"
-                android:textStyle="bold"
-                android:textSize="30sp"
-
-                app:layout_constraintEnd_toEndOf="@id/antena"
-                app:layout_constraintStart_toStartOf="@id/antena"
-                app:layout_constraintTop_toBottomOf="@id/antena"
-
-
-                />
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>
 
